@@ -1889,7 +1889,7 @@ class Beam:
     def __str__(self):
         return f"""--------------------------------
         <Beam>
-        length = {self._x0}
+        length = {self._x1 - self._x0}
         loads = {str(len(self._loads))}"""
 
     def __repr__(self):
